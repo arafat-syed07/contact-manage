@@ -6,8 +6,8 @@ import Header from "../../components/Header";
 import React, { Component } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import AddUser from "C:/Users/abhis/Downloads/react-admin-dashboard-master/src/compo/AddUser.js";
-import UserList from "C:/Users/abhis/Downloads/react-admin-dashboard-master/src/compo/UserList.js";
+import AddUser from '../../compo/AddUser'
+import UserList from "../../compo/UserList";
 
 const Form = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");

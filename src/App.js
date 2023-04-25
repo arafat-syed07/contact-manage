@@ -15,8 +15,8 @@ import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
-import AddUser from "C:/Users/abhis/Downloads/react-admin-dashboard-master/src/compo/AddUser.js";
-import EditUser from "C:/Users/abhis/Downloads/react-admin-dashboard-master/src/compo/EditUser.js";
+import AddUser from "./compo/AddUser";
+import EditUser from "./compo/UserList";
 
 function App() {
   const [theme, colorMode] = useMode();
